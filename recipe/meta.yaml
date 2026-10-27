@@ -1,14 +1,14 @@
 {% set python_min = "3.10" %}
 {% set name = "txl-local-contents" %}
-{% set version = "0.3.6" %}
+{% set version = "0.3.10" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/txl_local_contents-{{ version }}.tar.gz
-  sha256: ca57b993b2294064ae015a96350f8bca8f76288f3fa52616e62ef5173f3c43ce
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/txl_local_contents-{{ version }}.tar.gz
+  sha256: 4daf360202b7a681e83f85d75be2bbb8df10d707909a45d2ecad80ca378912b8
 
 build:
   noarch: python
